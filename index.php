@@ -28,7 +28,7 @@
         <nav class="navbar fixed-top navbar-expand-sm bgColor scrolled  navbar-dark">
             <div class="container">
                 <div class="logo">
-                    <<span>/</span>> 
+                    <a href="index.php"><<span>/</span>> </a>
                 </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
