@@ -414,3 +414,17 @@ footer{
         width: 90%;
     }
 }
+@media screen and (min-width:912px) and (max-width:1368px){
+    .registerBtn{
+        width: 35%;
+    }
+    .team-row{
+        max-width: 100%;
+        margin: 0px auto;
+        display:block;
+    }
+    .text-area textarea{
+        max-width: 70%;
+        max-height: 65%;
+    }
+}
