@@ -4,9 +4,6 @@
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
 }
-body{
-    background-color: rgb(7, 85, 153) ;
-}
 /* Navbar ColorScrolling Funtion */
 .bgColor{
     background-color: transparent ;
