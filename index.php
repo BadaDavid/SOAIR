@@ -48,7 +48,7 @@
           <!-- End of Navbar -->
 
           <!-- Start of Main Header -->
-        <section class="section1" id="home">
+        <section class="section1 " id="home">
             <div class="">S. <p>School</p></div>
             <div class="">O. <p>Of</p></div>
             <div class="">A. <p>Artificial</p></div>
@@ -424,7 +424,7 @@
     </footer>
 
     <!-- End Of Webiste Body -->
-
+    <div id="preloader"></div>
     <!-- Plugins Js Links -->
     <script src="plugins/bootstrap/assets/js/vendor/jquery-slim.min.js"></script>
     <script src="plugins/bootstrap/assets/js/vendor/popper.min.js"></script>
