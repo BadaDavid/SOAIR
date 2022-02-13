@@ -327,7 +327,7 @@ footer{
 /*End of Main Footer Section */
 
 /* Responsive View */
-@media screen and (min-width:30px) and (max-width:815px) {
+@media screen and (min-width:30px) and (max-width:844px) {
     .logo{
         font-size: 40px;
     }
