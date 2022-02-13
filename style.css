@@ -33,6 +33,7 @@ header{
 .logo{
     color: rgb(0, 162, 255) !important;
     font-size: 50px;
+    text-decoration: none;
 }
 .logo span{
     color: white;
