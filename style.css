@@ -1,0 +1,416 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    background-color: rgb(7, 85, 153) ;
+}
+/* Navbar ColorScrolling Funtion */
+.bgColor{
+    background-color: transparent ;
+}
+.bgColor.scrolled{
+    background-color: rgb(6, 6, 36)!important;
+}
+/* End of Navbar ColorScrolling Funtion */
+
+/* Start of Header Section */
+header{
+    background: rgba(0, 0, 0, 0.596) url(codeBackground/photo-1607705703571-c5a8695f18f6.jpg) ;
+    background-blend-mode: darken;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    overflow: auto;
+}
+.collapse ul{
+    margin-left: auto;
+}
+.logo{
+    color: rgb(0, 162, 255) !important;
+    font-size: 50px;
+}
+.logo span{
+    color: white;
+}
+.bgColor.scrolled{
+    background-color: rgb(20, 20, 22);
+}
+nav{
+    overflow: hidden;
+    display: flex;
+    padding: 0px 40px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+nav ul li{
+    list-style: none;
+    color:   rgb(255, 255, 255);
+}
+nav ul li a{
+    color:   rgb(255, 255, 255);
+    text-decoration: none !important;
+    color: aliceblue !important;
+}
+/* Main Header */
+.section1{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.section1 div{
+    text-align: center;
+    font-size: 150px;
+    color: white;
+}
+.section1 div p{
+    font-size: 30px;
+}
+.registerBtn{
+    text-align: center;
+    margin: 40px auto;
+    color: white;
+    background-color: darkblue;
+    padding: 20px 18px;
+    font-size: 18px;
+    border-radius: 10px;
+    width: 15%;
+    font-weight: 200;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 1s all;
+    border: none;
+    outline: none;
+}
+.registerBtn:hover{
+    color: darkblue;
+    background-color: white;
+}
+.register-box{
+    display: none;
+    position: fixed !important;
+    z-index: 1;
+    right: 0;
+    left: 0;
+    top: 3rem;
+
+}
+.courseCombimation{
+    display: flex;
+}
+.subject-container{
+    width: 35%;
+    margin: 0px auto;
+}
+.courseCombimation div label{
+    margin-right: auto;
+}
+div input[type = text], div input[type = email], div input[type = tel]{
+    float: right;
+    width: 70%;
+    padding: 2px 5px;
+    align-items: center;
+    outline: none;
+}
+.subject{
+    align-items: center;
+}
+.subject input[type = checkbox]{
+    float: right;
+    align-items: center;
+
+}
+.modal-title{
+    font-weight: 500;
+    margin: 0px auto;
+    text-align: center;
+}
+.modal-body h4{
+    text-align: center;
+}
+.modal-footer{
+    justify-content: space-between !important;
+    text-transform: uppercase !important;
+}
+/* End of Header Section */
+.general-header{
+    font-size: 40px;
+    text-align: center;
+    text-decoration: solid navy 1px;
+}
+/* About Us Section */
+.about-body{
+    text-align: justify;
+    padding: 0px 40px;
+}
+/*End of About Us Section */
+
+/* Start of Courses Section */
+.courses-row{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+.courses-row #accordion{
+    width: 49%;
+}
+/* Start of Courses Section */
+
+/* Start of Team Section */
+.card{
+    border: none !important;
+    margin: 20px 0px;
+}
+.card-link{
+    color: rgb(6, 6, 36) !important;
+    font-size: 18px ;
+    text-transform: uppercase;
+}
+.team{
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0px auto;
+}
+
+.team-card1{
+    display: block;
+    align-items: center;
+    border-radius: 10px;
+    width: 60%;
+    padding: 50px 15px;
+    justify-content: space-between;
+    text-align: center;
+    margin: 35px;
+    margin: 0px auto;
+    transition: all 0.5s;
+    color: rgba(6, 6, 36, 0.877);
+}
+.team-card1 img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+.team-row{
+    width: 95%;
+    margin: 0px auto;
+    display: flex;
+}
+.team-card{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 95%;
+    padding: 50px 8px;
+    justify-content: space-between !important;
+    margin: 35px;
+    transition: all 0.5s;
+    color: rgba(6, 6, 36, 0.877);
+}
+.team-card b{
+    font-size: 18px;
+}
+.team-card p{
+    font-size: 15px;
+}
+.team-card img{
+    width: 10rem;
+    height: 10rem;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+/* End of Team Section */
+                                                                    
+/* Start of Contact Section */
+.contact{
+    justify-content: space-between;
+    width: 95%;
+    margin: 0px auto;
+    padding: 30px 20px;
+    
+}
+.contact form{
+    font-size: 18px;
+}
+.contact form .inputs div{
+    align-items: center;
+}
+.contact form div{
+    margin: 13px 0px;
+    align-items: center !important;
+}
+.contact form div input{
+    padding:3px 5px;
+}
+.text-area{
+    height: 15rem;
+}
+.text-area textarea{
+    float: right !important;
+    width: 30rem;
+    height: 85%;
+    padding: 10px 3px;
+    outline: none;
+}
+.contact .contactSubmitBtn{
+    float: right;
+    padding: 10px 5px;
+    border-radius: 10px;
+    outline: none;
+    transition: all 0.5s !important;
+}
+.gmap_canvas{
+    margin: 0px auto;
+}
+/* End of Contact Section */
+
+/*Start of First Footer Section */
+.footer{
+    width: 75%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.soair{
+    font-size: 20px;
+    color: rgba(6, 6, 36);
+}
+.socials{
+    align-items: center;
+}
+.socials i{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(6, 6, 36);
+    color: white;
+    text-align: center;
+
+}
+.socials div{
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+/*End of First Footer Section */
+
+/*Start of Main Footer Section */
+footer{
+    background-color: rgb(6, 6, 36);
+    height: 10vh;
+
+}
+.footers{
+    align-items: center;
+    display: flex !important;
+    color: white !important;
+    width: 70%;
+    margin:auto;
+    justify-content: space-between;
+    height: 90%;
+}
+.footers a{
+    color: white !important;
+    text-decoration: none !important;
+}
+/*End of Main Footer Section */
+
+/* Responsive View */
+@media screen and (min-width:30px) and (max-width:815px) {
+    .logo{
+        font-size: 40px;
+    }
+    .bgColor{
+        background-color: rgb(6, 6, 36);
+    }
+    .registerBtn{
+        width: 55%;
+    }
+    .mapouter{
+        overflow: auto;
+    }
+    .section1 div{
+        font-size: 70px;
+        margin-top: 30px;
+    }
+    .section1 div p{
+        font-size: 15px;
+    }
+    .courses-row{
+        display: block;
+    }
+    .courses-row #accordion{
+        width: 100%;
+    }
+    .team{
+        display: block;
+        margin: 15px;
+    }
+    .team-row{
+        display: block;
+    }
+    .team-card{
+        display: block;
+        text-align: center;
+        margin: 10px auto;
+    }
+    .team-card1{
+        display: flex;
+        border-radius: 10px;
+        text-align: center !important;
+        width: 95%;
+        padding: 50px 8px;
+        margin: 10px auto;
+        transition: all 0.5s;
+        color: rgba(6, 6, 36, 0.877);
+    }
+    input[type = text], input[type = email], input[type = tel]{
+        max-width: 70% !important;
+    }
+    .subject-container{
+        width: 45% !important;
+    }
+    .text-area textarea{
+        max-width: 70%;
+        max-height: 65%;
+    }
+    .contact .contactSubmitBtn{
+        margin-top: -90px;
+    }
+    .footer{
+        display: block;
+    }
+    .socials {
+        width: 75%;
+        margin: 0px auto;
+    }
+    footer{
+        height: 18vh;
+        margin-top: 40px;
+        display: block !important;
+        text-align: center;
+        align-items: center;
+    }
+    .details{
+        text-align: justify;
+    }
+    .soair{
+        text-align: center;
+    }
+    .footers{
+        height: 50%;
+        margin: auto;
+        width: 90%;
+    }
+}
